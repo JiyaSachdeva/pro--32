@@ -6,10 +6,10 @@ const Constraint = Matter.Constraint;
 var engine, world;
 var backgroundImg;
 
-var bg =  "sunrise1.png";
+var bg = "sunrise1.png";
 
 function preload() {
- getBackgroundImg();
+    getBackgroundImg();
 }
 
 function setup(){
@@ -63,5 +63,7 @@ if (hour>=04 && hour<=6){
 }
 
 backgroundImg = loadImage(bg);
+
+
 
 }
